@@ -87,4 +87,5 @@ apigClient.mapPokemonsGet(params, body, additionalParams)
     });
 }
 
+window.setInterval(refresh_pokemon_data,1000);
 window.setInterval(refresh_pokemon_layer,1000);
